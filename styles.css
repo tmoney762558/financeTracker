@@ -10,10 +10,39 @@ body {
   background-color: #192734;
   font-family: sans-serif;
 }
+.trends-news-headers {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.trends-header {
+  color: white;
+  font-size: 1.2em;
+  padding: 0px 0px 0px 15px;
+  margin-left: 50px;
+  background-color: #212e39;
+  border: 5px solid #212e39;
+  border-radius: 10px;
+  width: 350px;
+  height: 50px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.news-header {
+  color: white;
+  font-size: 1.2em;
+  padding: 0px 0px 0px 15px;
+  margin-right: 50px;
+  background-color: #212e39;
+  border: 5px solid #212e39;
+  border-radius: 10px;
+  width: 350px;
+  height: 50px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
 .welcome-news {
   display: flex;
   justify-content: space-between;
-  margin-top: 125px;
+  margin-top: 19.2px;
 }
 .welcome-box {
   color: white;
@@ -40,7 +69,7 @@ body {
 .accounts-goals-headers {
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 .accounts-header {
   color: white;
@@ -98,15 +127,47 @@ body {
   margin-left: 50px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
-.goal-1 {
-    color: white;
-    font-size: 1.2em;
-    padding: 15px;
-    background-color: #15202b;
-    border: 5px solid #15202b;
-    border-radius: 10px;
-    width: 400px;
-    height: 175px;
-    margin-right: 50px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+.budget {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.budget-header {
+  color: white;
+  font-size: 1.2em;
+  padding: 0px 0px 0px 15px;
+  margin-right: 50px;
+  background-color: #212e39;
+  border: 5px solid #212e39;
+  border-radius: 10px;
+  width: 350px;
+  height: 50px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.budget-box {
+  color: white;
+  font-size: 1.2em;
+  padding: 15px;
+  background-color: #15202b;
+  border: 5px solid #15202b;
+  border-radius: 10px;
+  width: 400px;
+  height: 175px;
+  margin-left: 50px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.goal-1,
+.goal-2 {
+  color: white;
+  font-size: 1.2em;
+  padding: 15px;
+  background-color: #15202b;
+  border: 5px solid #15202b;
+  border-radius: 10px;
+  width: 400px;
+  height: 175px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 25px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
