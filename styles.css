@@ -4,165 +4,55 @@
   background-color: #15202b;
   border: 3px solid #15202b;
   padding: 10px;
+  margin-bottom: 50px;
 }
 body {
   margin: 0px;
   background-color: #192734;
   font-family: sans-serif;
 }
-.trends-news-headers {
+.row {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 50px;
+  width: 100%;
 }
-.trends-header {
-  color: white;
-  font-size: 1.2em;
-  padding: 0px 0px 0px 15px;
-  margin-left: 50px;
-  background-color: #212e39;
-  border: 5px solid #212e39;
-  border-radius: 10px;
-  width: 350px;
-  height: 50px;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-}
-.news-header {
-  color: white;
-  font-size: 1.2em;
-  padding: 0px 0px 0px 15px;
-  margin-right: 50px;
-  background-color: #212e39;
-  border: 5px solid #212e39;
-  border-radius: 10px;
-  width: 350px;
-  height: 50px;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-}
-.welcome-news {
+.column {
   display: flex;
-  justify-content: space-between;
-  margin-top: 19.2px;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }
-.welcome-box {
-  color: white;
-  padding: 15px;
-  background-color: #15202b;
-  border: 5px solid #15202b;
-  border-radius: 10px;
-  width: 400px;
-  height: 200px;
-  margin-left: 50px;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-}
-.news-box {
-  color: white;
-  padding: 15px;
-  margin-right: 50px;
-  background-color: #15202b;
-  border: 5px solid #15202b;
-  border-radius: 10px;
-  width: 350px;
-  height: 200px;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-}
-.accounts-goals-headers {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 25px;
-}
-.accounts-header {
+.headers {
   color: white;
   font-size: 1.2em;
-  padding: 0px 0px 0px 15px;
-  background-color: #212e39;
-  border: 5px solid #212e39;
-  border-radius: 10px;
-  width: 400px;
-  height: 50px;
-  margin-left: 50px;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-}
-.goals-header {
-  color: white;
-  font-size: 1.2em;
-  padding: 0px 0px 0px 15px;
-  margin-right: 50px;
+  padding: 15px;
   background-color: #212e39;
   border: 5px solid #212e39;
   border-radius: 10px;
   width: 350px;
-  height: 50px;
+  height: 25px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
-.accounts-goals-content {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 15px;
-}
-.accounts-content {
-  display: flex;
-}
-.personal-checking {
-  color: white;
-  font-size: 1.2em;
-  padding: 15px;
-  background-color: #15202b;
-  border: 5px solid #15202b;
-  border-radius: 10px;
-  width: 400px;
-  height: 175px;
-  margin-left: 50px;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-}
-.wallet {
-  color: white;
-  font-size: 1.2em;
-  padding: 15px;
-  background-color: #15202b;
-  border: 5px solid #15202b;
-  border-radius: 10px;
-  width: 400px;
-  height: 175px;
-  margin-left: 50px;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-}
-.budget-header {
-  color: white;
-  font-size: 1.2em;
-  padding: 0px 0px 0px 15px;
-  margin-left: 50px;
-  background-color: #212e39;
-  border: 5px solid #212e39;
-  border-radius: 10px;
-  width: 350px;
-  height: 50px;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-}
-.budget-box {
-  color: white;
-  font-size: 1.2em;
-  padding: 15px;
-  background-color: #15202b;
-  border: 5px solid #15202b;
-  border-radius: 10px;
-  width: 400px;
-  height: 175px;
-  margin-left: 50px;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-}
-.goal-1,
-.goal-2 {
-  color: white;
-  font-size: 1.2em;
-  padding: 15px;
-  background-color: #15202b;
-  border: 5px solid #15202b;
-  border-radius: 10px;
-  width: 400px;
-  height: 175px;
-  margin-right: 50px;
-  margin-left: 50px;
+.headers {
+  margin-left: 25px;
   margin-bottom: 25px;
+}
+#newsHeader, #newsBox {
+ margin-left: 500px;
+ margin-right: 25px;
+}
+.boxes {
+  color: white;
+  padding: 15px;
+  background-color: #15202b;
+  border: 5px solid #15202b;
+  border-radius: 10px;
+  width: 400px;
+  height: 200px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.boxes {
+  margin-left: 25px;
 }
