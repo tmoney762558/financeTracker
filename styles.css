@@ -31,12 +31,13 @@ body {
   background-color: #212e39;
   border: 5px solid #212e39;
   border-radius: 10px;
-  width: 400px;
+  width: 51%;
   height: 25px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
   margin-bottom: 25px;
 }
 .boxes {
+  font-size: 20px;
   color: white;
   padding: 15px;
   background-color: #15202b;
