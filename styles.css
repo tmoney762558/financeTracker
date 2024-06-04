@@ -23,8 +23,8 @@ body {
   flex-direction: column;
   flex-basis: 100%; 
   flex: 1;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 .headers {
   color: white;
@@ -49,6 +49,7 @@ body {
   font-size: 20px;
   color: white;
   padding: 15px;
+  padding-top: 5px;
   background-color: #15202b;
   border: 5px solid #15202b;
   border-radius: 10px;
@@ -59,15 +60,29 @@ body {
   margin-bottom: 25px;
 }
 #personalCheckingBox, #walletBox, #budget1, #budget2 {
-  min-width: 350px;
+  max-width: 350px;
+}
+#personalCheckingBox, #walletBox {
+  height: 110px;
+}
+#pcBalance, #walletBalance {
+  margin-left: 3px;
+  margin-top: 15px;
+  font-size: 1.3em;
 }
 .flex-container {
   display: flex;
   gap: 25px;
 }
+#pc-container, #wallet-container, #foodContainer {
+  gap: 10px
+}
 #downArrow {
   margin-top: 50px;
   margin-left: 50px;
+}
+#creditCardIcon, #walletIcon, #foodIcon {
+  margin-top: 17px;
 }
 #trendsData {
   margin-left: 20px;

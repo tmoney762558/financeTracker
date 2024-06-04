@@ -19,7 +19,7 @@
           <div class="headers" id="trendsHeader">
             <div class="flex-container">
               <img src="images/lineGraph.png" width="30" height="30" />
-              <p><b>Trends</b></p>
+              <p><b> Daily Trends</b></p>
             </div>
           </div>
         </div>
@@ -42,9 +42,11 @@
                 width="60"
                 height="80"
               />
-              <p id="trendsData"><b>-$159</b></p>
+              <p id="trendsData"><b>-$4,000.00</b></p>
             </div>
-            <p id="lastPurchase"><b>Last Purchase: Amazon Marketplace</b></p>
+            <p id="lastPurchase">
+              <b>Last Purchase: Going through Child Support</b>
+            </p>
           </div>
         </div>
         <div class="column">
@@ -55,7 +57,7 @@
         <div class="column">
           <div class="headers" id="accountsHeader">
             <div class="flex-container">
-              <img src="images/creditCard.png" width="40" height="30" />
+              <img src="images/accountIcon.png" width="25" height="30" />
               <p><b>Accounts</b></p>
             </div>
           </div>
@@ -72,8 +74,30 @@
       <div class="row">
         <div class="column">
           <div class="flex-container">
-            <div class="boxes" id="personalCheckingBox">Personal Checking</div>
-            <div class="boxes" id="walletBox">Personal Checking</div>
+            <div class="boxes" id="personalCheckingBox">
+              <div class="flex-container" id="pc-container">
+                <img
+                  id="creditCardIcon"
+                  src="images/creditCard.png"
+                  width="35"
+                  height="25"
+                />
+                <p><b>Personal Checking</b></p>
+              </div>
+              <p id="pcBalance">$-197.00</p>
+            </div>
+            <div class="boxes" id="walletBox">
+              <div class="flex-container" id="wallet-container">
+                <img
+                  id="walletIcon"
+                  src="images/walletIcon.png"
+                  width="30"
+                  height="25"
+                />
+                <p><b>Wallet</b></p>
+              </div>
+              <p id="walletBalance">$3.00</p>
+            </div>
           </div>
         </div>
         <div class="column">
@@ -89,7 +113,12 @@
             </div>
           </div>
           <div class="flex-container">
-            <div class="boxes" id="budget1">Budget</div>
+            <div class="boxes" id="budget1">
+              <div class="flex-container" id="food-container">
+                <img id="foodIcon" src="images/foodIcon.png" width="30" height="30">
+                <p><b>Food</b></p>
+              </div>
+            </div>
             <div class="boxes" id="budget2">Budget</div>
           </div>
         </div>
