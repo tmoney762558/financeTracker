@@ -32,8 +32,8 @@ body {
   background-color: #212e39;
   border: 5px solid #212e39;
   border-radius: 10px;
-  width: 60%;
-  max-width: 725px;
+  width: 75%;
+  max-width: 530px;
   height: 70px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
   margin-bottom: 25px;
@@ -52,33 +52,37 @@ body {
   background-color: #15202b;
   border: 5px solid #15202b;
   border-radius: 10px;
-  width: 55%;
-  max-width: 700px;
+  width: 75%;
+  max-width: 500px;
   height: 200px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
   margin-bottom: 25px;
+}
+#personalCheckingBox, #walletBox, #budget1, #budget2 {
+  min-width: 350px;
 }
 .flex-container {
   display: flex;
   gap: 25px;
 }
 #downArrow {
-  margin-top: 30px;
-  margin-left: 25px;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 #trendsData {
-  margin-left: 30px;
+  margin-left: 20px;
   margin-top: 70px;
   font-size: 2.5em;
 }
 #lastPurchase {
   margin-top: 0px;
   margin-bottom: 20px; 
+  margin-left: 25px;
 }
 #trendsHeader, #trendsBox, #accountsHeader, #personalCheckingBox, #budgetHeader, #budget1 {
-  margin-left: 40%;
+  margin-left: 5%;
 }
 #newsHeader, #newsBox, #goalsHeader, #goal1, #goal2 {
   margin-left: auto;
-  margin-right: 45%;
+  margin-right: 5%;
 }
