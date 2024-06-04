@@ -32,29 +32,29 @@ body {
   background-color: #212e39;
   border: 5px solid #212e39;
   border-radius: 10px;
-  width: 75%;
-  max-width: 530px;
-  height: 70px;
+  width: 45%;
+  max-width: 450px;
+  height: 50px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
   margin-bottom: 25px;
 }
 .headers img {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 10px;
+  padding-bottom: 10px;
 }
 .headers p {
   font-size: 1.2em;
+  margin-top: 13px;
 }
 .boxes {
   font-size: 20px;
   color: white;
-  padding: 15px;
-  padding-top: 5px;
   background-color: #15202b;
   border: 5px solid #15202b;
   border-radius: 10px;
-  width: 75%;
-  max-width: 500px;
+  width: 45%;
+  max-width: 450px;
   height: 200px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
   margin-bottom: 25px;
@@ -62,37 +62,45 @@ body {
 #personalCheckingBox, #walletBox, #budget1, #budget2 {
   max-width: 350px;
 }
-#personalCheckingBox, #walletBox {
+#personalCheckingBox, #walletBox, #budget1, #budget2 {
   height: 110px;
+  max-width: 300px;
 }
 #pcBalance, #walletBalance {
-  margin-left: 3px;
-  margin-top: 15px;
-  font-size: 1.3em;
+  margin-left: 5px;
+  margin-top: 10px;
+  font-size: 1em;
+}
+#budgetUsed {
+  margin-left: 10px;
+  font-size: 0.8em;
 }
 .flex-container {
   display: flex;
   gap: 25px;
 }
-#pc-container, #wallet-container, #foodContainer {
-  gap: 10px
-}
-#downArrow {
-  margin-top: 50px;
-  margin-left: 50px;
+#pc-container, #wallet-container, #food-container {
+  gap: 10px;
+  border-bottom: 5px solid #212e39;
 }
 #creditCardIcon, #walletIcon, #foodIcon {
   margin-top: 17px;
+  margin-left: 5px;
+}
+#downArrow {
+  margin-top: 43px;
+  margin-left: 20px;
 }
 #trendsData {
   margin-left: 20px;
-  margin-top: 70px;
-  font-size: 2.5em;
+  margin-top: 55px;
+  font-size: 1.5em;
 }
 #lastPurchase {
-  margin-top: 0px;
-  margin-bottom: 20px; 
-  margin-left: 25px;
+  font-size: .8em;
+  margin-top: 15px;
+  margin-bottom: 10px; 
+  margin-left: 15px;
 }
 #trendsHeader, #trendsBox, #accountsHeader, #personalCheckingBox, #budgetHeader, #budget1 {
   margin-left: 5%;
